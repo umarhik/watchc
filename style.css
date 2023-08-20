@@ -1,0 +1,155 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.block-box:hover {
+    animation: box-animation 1s linear infinite alternate;
+} 
+
+
+.block-box {
+    width: 500px;
+    height: 400px;
+    background: red;
+    margin: 0 auto;
+    position: relative;
+    animation-name: box-animation;
+    animation-duration: 3s;
+    
+    
+}
+
+@keyframes box-animation {
+    0%{
+        left: 0;
+    }
+    20%{
+        background: yellow;
+    }
+    40%{
+        background: green;
+    }
+    60%{
+        background: blue;
+    }
+    80%{
+        background: #000;
+    }
+    100%{
+        background: darkorange;
+    }
+} */
+
+
+.block {
+    width: 300px;
+    height: 500px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.red {
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 50px;
+    background: #000;
+    animation: red 10s linear;
+}
+
+.yellow {
+    width: 150px;
+    height: 150px;
+    background: yellow;
+    border-radius: 50px;
+    background: #000;
+    animation: yellow 5s ease normal 10s;
+}
+
+.green {
+    width: 150px;
+    height: 150px; 
+    background: green;
+    border-radius: 50px;
+    background: #000;
+    animation: green 10s ease normal 15s;
+}  
+
+@keyframes red {
+    0%{
+        background: #000;
+    }
+    1%{
+        background: red;
+    }
+    100%{
+        background: red;
+    }
+}
+
+@keyframes yellow {
+    0%{
+        background: #000;
+    }
+    1%{
+        background: yellow;
+    }
+    10%{
+        background: #000;
+    }
+    20%{
+        background: yellow;
+    }
+    30%{
+        background: #000;
+    }
+    40%{
+        background: yellow;
+    }
+    50%{
+        background: #000;
+    }
+    60%{
+        background: yellow;
+    }
+    70%{
+        background: #000;
+    }
+    80%{
+        background: yellow;
+    }
+    90%{
+        background: #000;
+    }
+    100%{
+        background: yellow;
+    }
+}
+
+@keyframes green {
+    0%{
+        background: #000;
+    }
+    1%{
+        background: green;
+    }
+    100%{
+        background: green;
+    }
+}
+
+
+    
+
